@@ -58,7 +58,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "MTM MULTI SERVICES SARL",
+    title: "MTM MULTISERVICES SARL",
     firstName: "MTM MULTI",
     LastName: "SERVICES SARL",
     btnText: "Contactez Nous",

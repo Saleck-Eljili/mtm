@@ -32,7 +32,7 @@ const App = () => {
       <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">MTM MULTI SERVICES SARL</h6>
+        <h6 className="mb-3">MTM MULTISERVICES SARL</h6>
         <p>mtmmultiservicessarl © All CopyRights Reserved 2023</p>
       </footer>
     </div>
