@@ -194,9 +194,9 @@ export const content = {
     subtitle: "ENTRER EN CONTACT",
     social_media: [
       {
-        text: "test@gmail.com",
+        text: "contact@mtmmultiservicessarl.com",
         icon: GrMail,
-        link: "mailto:test@gmail.com",
+        link: "mailto:contact@mtmmultiservicessarl.com",
       },
       {
         text: "+213 669130516",
