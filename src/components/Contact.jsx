@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_pmkak5t",
+        "template_93aoozs",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "1ogohl54djqgrASMo"
       )
       .then(
         (result) => {
@@ -45,13 +45,12 @@ const Contact = () => {
         </h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
-          {/* <form
+          <form
             ref={form}
             onSubmit={sendEmail}
             data-aos="fade-up"
             className="flex-1 flex flex-col gap-5"
           >
-            
             <input
               type="text"
               name="from_name"
@@ -63,7 +62,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -79,7 +78,7 @@ const Contact = () => {
             >
               Submit
             </button>
-          </form> */}
+          </form>
           <div className="flex-1 flex flex-col gap-5">
             {Contact.social_media.map((content, i) => (
               <div
